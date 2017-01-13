@@ -1,21 +1,25 @@
 body {
- 	text-align: center;
 	background-color: #AA4E6A;
+	background: url("http://i.imgur.com/PzbqOBS.jpg");
+	background-size: cover;
 	color: #FFF;
+	text-align: center;
+
 	font-family: Helvetica;
 
 }
 h1 {
 	text-transform: uppercase;
-	font-size: 65px;
+	font-size: 75px;
 	font-weight: bold;
 
 }
 #slogan {
 	font-style: italic;
+	font-weight: bold;
 }
 hr {
-  width: 400px;
+  width: 325px;
 }
 #listtitle {
 	text-decoration: underline;
@@ -25,4 +29,7 @@ hr {
 ul {
     text-align: center;
     list-style-type: none;
+}
+a {
+    color: #AA4E6A;
 }
