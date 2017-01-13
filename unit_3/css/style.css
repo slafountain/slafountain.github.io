@@ -19,6 +19,8 @@ hr {
 }
 #listtitle {
 	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 ul {
     text-align: center;
