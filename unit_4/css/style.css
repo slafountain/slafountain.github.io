@@ -17,12 +17,11 @@ h1	{
 	font-size: 6em;
 	font-weight: bold;
 	letter-spacing: .2em;
-	padding-bottom: -4em;
-
 }
-#slogan {
+h2	{
+	font-size: 1em;
 	font-style: italic;	
-	padding-bottom: 1em;
+	padding-bottom: 1.5em;
 }
 nav a{
 	font-size: 1.10em;
@@ -39,12 +38,13 @@ section {
 hr {
   width: 30em;
 }
-#listtitle {
+h3 {
 	font-family: 'Crete Round', serif;
 	text-transform: uppercase;
 	text-align: center;
 }
 ul {
+	line-height: 1.3em;
     text-align: center;
     list-style-type: none;
 }
