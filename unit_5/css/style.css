@@ -20,6 +20,7 @@ body {
 
 a {
     color: #AA4E6A;
+    text-decoration: none;
 }
 
 header {
@@ -50,7 +51,6 @@ nav {
 
 nav a {
 	font-size: 1.10em;
-	text-decoration: none;
 	font-weight: bold;
 	margin-right: 1em;
 }
