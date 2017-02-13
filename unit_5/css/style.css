@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Roboto');
 
 body {
@@ -105,3 +106,112 @@ footer {
     border: 1px black solid;
     padding: 20px;
 }
+=======
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Roboto');
+
+body {
+/*	background-color: grey;
+	background: url("http://i.imgur.com/PzbqOBS.jpg");
+	background-size: cover;*/	
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 16px;
+	line-height: 1em;
+	margin: 0; 
+	text-align: left;
+}
+
+.wrapper {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+a {
+    color: #AA4E6A;
+    text-decoration: none;
+}
+
+header {
+	text-transform: uppercase;
+/*	background-color: black;
+	padding: 1.5em;*/
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+/*	width: 100%;*/
+}
+
+h1	{
+	font-family: 'Crete Round', serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: .2em;
+/*	margin-bottom: 1em;*/
+/*	float: left;*/
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+/*    float: right;*/
+}
+
+nav a {
+	font-size: 1.10em;
+	font-weight: bold;
+	margin-right: 1em;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2	{
+	font-size: 1em;
+	font-style: italic;	
+}
+
+p {
+	line-height: 1.5em;
+}
+
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+hr {
+  	width: 30em;
+}
+
+h3 {
+	font-family: 'Crete Round', serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+ul {
+	line-height: 1.3em;
+    text-align: center;
+    list-style-type: none;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+>>>>>>> origin/master

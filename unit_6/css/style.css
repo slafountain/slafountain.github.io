@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Roboto');
 
 body {	
@@ -120,3 +121,127 @@ footer {
 	text-align: center;
     padding: 20px;
 }
+=======
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Roboto');
+
+body {	
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 16px;
+	line-height: 1em;
+	margin: 0; 
+	text-align: left;
+}
+
+.wrapper {
+	background-color: #424242;
+}
+
+a {
+    color: #AA4E6A;
+    text-decoration: none;
+}
+
+header {
+	text-transform: uppercase;
+	background-color: #000;
+    padding: 20px;
+}
+
+nav {
+	background-color: #000;
+}
+
+nav a {
+	font-size: 1.10em;
+	font-weight: bold;
+	margin-right: 1em;
+}
+
+h1	{
+	font-family: 'Crete Round', serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: .2em;
+}
+
+
+.hero img {
+	display: block;
+	max-width: 100%;
+	max-height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2	{
+	position: absolute; 
+	top: 385px; 
+	left: 150px; 
+	width: 75%;
+	line-height: 1em;
+	font-size: 2em;
+}
+
+#aboutus {
+	position: absolute; 
+	top: 435px; 
+	left: 150px;
+	width: 75%;
+	line-height: 1.5em;
+	font-style: italic;
+}
+
+#two_column {
+    padding: 40px;
+}
+
+h3 {
+	font-family: 'Crete Round', serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#left {
+    border: 1px black solid;
+    padding: 10px;
+    float: left;
+    width: 36%;
+}
+
+#right {
+    border: 1px black solid;
+    padding: 10px;
+    float: right;   
+    width: 36%;
+}
+
+.products img {
+	display: block;
+	max-width: 100%;
+	max-height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.products a{
+	border-color: 1px black solid;
+	background-color: #000;
+	padding: .3em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	background-color: #000;
+	text-align: center;
+    padding: 20px;
+}
+>>>>>>> origin/master
