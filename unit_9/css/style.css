@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {	
+	background-color: #424242;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	font-size: 16px;
+	line-height: 1em;
+	text-align: left;
+	position: relative;
+}
+
+a {
+    color: #AA4E6A;
+    text-decoration: none;
+}
+
+header {
+	text-transform: uppercase;
+	background-color: #000;
+    padding: 20px;
+    margin: 0;
+}
+
+nav {
+	background-color: #000;
+	margin: 1em 1em 0 0;
+}
+
+nav a {
+	font-size: 1.10em;
+	font-weight: bold;
+	margin-right: 1em;
+}
+
+h1	{
+	font-family: 'Crete Round', serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: .2em;
+}
+
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+article {
+	position: absolute;
+	top: 27%;
+	left: 10%;
+	width: 75%;
+}
+
+h2	{
+	line-height: 1em;
+	font-size: 2em;
+	margin-bottom: 1%;
+}
+
+article p {
+	line-height: 1.5em;
+	font-style: italic;
+}
+
+#two_column {
+    padding: 1%;
+}
+
+h3 {       
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 7%;
+}
+
+h4 {
+	font-family: 'Crete Round', serif;
+	font-size: 2em;
+	letter-spacing: .2em;
+	text-align: center;
+	margin-top: 1em;
+}
+
+.products {
+    border: .1em black solid;
+    float: left;
+    width: 20%;
+    margin: 2.5%;
+}
+
+.products p {
+	font-size: .9em;
+	padding: 3%;
+	margin-top: 4%;
+}
+
+.products a {
+	border-color: black solid;
+	background-color: #000;
+	padding: 3%;
+	margin: 3%;
+	display: block;
+	text-align: center;
+}
+
+#founder_column {
+    padding: 1%;
+}
+
+.founders {
+	background-color: #000;
+    border: none;
+    float: left;
+    width: 40%;
+    margin: 3% 2% 3% 6%;
+}
+
+.founders img {
+	display: block;
+	max-width: 90%;
+	max-height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+}
+
+.founders h3 {
+	font-size: 2.5em;
+	margin-bottom: .1em;
+}
+
+.founders p {
+	font-size: 1em;
+	padding: 5%;
+	line-height: 125%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	background-color: #000;
+	text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:1035px) {
+	.products {
+   	 	width: 23%;
+   	 	margin: .5em;
+	}
+
+	.founders {
+		float: none;
+		width: 60%;
+		margin: 6% 3% 6% 20%;
+	}
+}
+
+@media screen and (max-width:853px) {
+	article {
+		position: absolute;
+		top: 15%;
+		left: 10%;
+	}
+
+	.products {
+   	 	width: 35%;
+   	 	margin: 2em 3em 1em 3em;
+	}
+}
+
+@media screen and (max-width:670px) {
+
+	article {
+		position: absolute;
+		top: 6%;
+		left: 10%;
+		width: 80%;
+	}
+
+	.products {
+   	 	width: 60%;
+   	 	margin: 2em 3em 1em 7em;
+	}
+}
+
+@media screen and (max-width:588px) {
+
+	header {
+		text-align: center;
+	}
+
+	nav {
+		width: 100%;
+		margin: 2em .5em 0 0;
+	}
+
+	nav a {
+		padding: .5em;
+		float: none;
+		display: block;
+	}
+
+	article {
+		position: absolute;
+		top: 16%;
+	}
+
+	article p {
+		display: none;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.products {
+   	 	width: 70%;
+   	 	margin: 2em 3em 1em 4.5em;
+	}
+
+	.founders {
+		float: none;
+		width: 80%;
+		margin: 6% 3% 6% 10%;
+	}
+}
